@@ -1,0 +1,80 @@
+
+.column {
+
+  float: left;
+  width:40%;
+  padding: 60px;
+  height: 250px;
+
+}
+
+#one{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h2{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a{
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ padding-left: 45%;
+ cursor: context-menu;
+ font-size: 10px;
+}
+
+label{
+color:black;
+}
+/*my resume*/
+
+#resume {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width:500px;
+}
+#resume tr:nth-child(even) {
+  background-color: white;
+
+}
+#resume tr:nth-child(odd) {
+  background-color: #4169E1;
+
+}
+th,td{
+  text-align: center;
+}
+/*Contact Form*/
+input[type=text], select {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+
+input[type=submit] {
+float:right;
+width: 10%;
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+#contact {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+p{
+  margin-bottom: 10px;
+}
