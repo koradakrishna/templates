@@ -1,18 +1,20 @@
+*{
+  box-sizing: border-box;
+}
 
 .column {
-
   float: left;
-  width:40%;
-  padding: 60px;
-  height: 250px;
-
+  width: 50%;
+  height: 400px;
 }
+
 
 #one{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 30%;
+  border-radius: 50%;
 }
 h2{
   color: white;
@@ -25,20 +27,29 @@ a{
   margin-right: auto;
  padding-left: 45%;
  cursor: context-menu;
- font-size: 10px;
+ font-size: 16px;
  color:white;
 }
 
 label{
 color:black;
 }
+a:hover{
+  background-color: grey;
+  width: 100%;
+  height: 50px;
+}
 /*my resume*/
+
 
 #resume {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
-  width:500px;
+  width:100%;
 }
+#resume td, #resume th {
+}
+
 #resume tr:nth-child(even) {
   background-color: white;
 
@@ -47,14 +58,25 @@ color:black;
   background-color: #4169E1;
 
 }
+
+
+#resume th {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  color: black;
+}
+
 th,td{
   text-align: center;
 }
+
+
 /*Contact Form*/
 input[type=text], select {
 width: 100%;
 padding: 12px 20px;
-margin: 8px 0;
+margin: 4px 0;
 display: inline-block;
 border: 1px solid #ccc;
 box-sizing: border-box;
@@ -62,20 +84,30 @@ box-sizing: border-box;
 
 input[type=submit] {
 float:right;
-width: 10%;
+width: 40%;
 background-color: #4CAF50;
 color: white;
 padding: 14px 20px;
-margin: 8px 0;
+margin: 5px 0;
 border: none;
 border-radius: 4px;
 cursor: pointer;
 }
 #contact {
-  border-radius: 5px;
+  border-radius: 1px;
   background-color: #f2f2f2;
-  padding: 25px;
+  padding: 10px;
+  height: 200px;
 }
 p{
   margin-bottom: 10px;
+}
+#about{
+  padding-left: 20px;
+}
+#img1,#img2,#img3,#img4,#img5,#img6 {
+  margin-left: auto;
+  margin-right: auto;
+  width:100px;
+  height:80px;
 }
