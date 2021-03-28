@@ -14,7 +14,9 @@
   font-family: 'Alata', sans-serif;
   color: white;
 }
-
+h1{
+  font-size: 18px;
+}
 /*IMAGES*/
 img {
   width: 100%;
@@ -85,7 +87,7 @@ input[type=submit]:hover {
 .column {
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 20px;
+  padding: 30px;
   margin-left: 200px;
   margin-right: 200px;
   height: 120%;
