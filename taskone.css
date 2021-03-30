@@ -27,7 +27,7 @@ a{
   margin-right: auto;
  padding-left: 45%;
  cursor: context-menu;
- font-size: 16px;
+ font-size: 14px;
  color:white;
 }
 
@@ -39,13 +39,20 @@ a:hover{
   width: 100%;
   height: 50px;
 }
+.images{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 /*my resume*/
 
 
 #resume {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
-  width:100%;
+  width:95%;
+  height: 50%;
 }
 #resume td, #resume th {
 }
@@ -69,8 +76,11 @@ a:hover{
 
 th,td{
   text-align: center;
-}
 
+}
+th{
+  color: white;
+}
 
 /*Contact Form*/
 input[type=text], select {
@@ -110,4 +120,9 @@ p{
   margin-right: auto;
   width:100px;
   height:80px;
+}
+@media screen and (max-width: 500px) {
+  .column {
+   width: 100%;
+  }
 }
