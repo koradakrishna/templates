@@ -10,51 +10,54 @@
 </head>
 
 <body>
-  <header class="container" style="max-width:1500px">
+  <header class="container" style="max-width:1500vh">
     <img class="image" src="photographer.jpg" alt="Me" width="1500" height="600">
     <div class="middle">
-      <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">JANE DOE</h1>
-      <h5 class="w3-hide-large" style="white-space:nowrap">JANE DOE</h5>
-      <h3 class="w3-hide-medium w3-hide-small">PHOTOGRAPHER</h3>
+      <h1>JANE DOE</h1>
+      <h5 style="white-space:nowrap">JANE DOE</h5>
+      <h3>PHOTOGRAPHER</h3>
     </div>
     <div class="navbar">
-      <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
-        <a href="#" class="w3-bar-item w3-button">Home</a>
-        <a href="#portfolio" class="w3-bar-item w3-button">Portfolio</a>
-        <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+      <div style="text-align:center;">
+      <div class="navbar bottommiddle" style="bottom:-16px">
+        <a href="#" class="navbar1 button">Home</a>
+        <a href="#portfolio" class="navbar1 button">Portfolio</a>
+        <a href="#contact" class="navbar1 button">Contact</a>
       </div>
     </div>
+    </div>
   </header>
-  <div class="w3-content w3-padding-large w3-margin-top" id="portfolio">
+  <div id="portfolio">
 
     <!-- Images (Portfolio) -->
     <img src="ocean.jpg" alt="Ocean" class="image" width="1000" height="500">
-    <img src="ocean2.jpg" alt="Ocean II" class="image w3-margin-top" width="1000" height="500">
-    <img src="falls2.jpg" alt="Falls" class="image w3-margin-top" width="1000" height="500">
-    <img src="mountainskies.jpg" alt="Skies" class="image w3-margin-top" width="1000" height="500">
-    <img src="mountains2.jpg" alt="Mountains" class="image w3-margin-top" width="1000" height="500">
+    <img src="ocean2.jpg" alt="Ocean II" class="image" width="1000" height="500">
+    <img src="falls2.jpg" alt="Falls" class="image" width="1000" height="500">
+    <img src="mountainskies.jpg" alt="Skies" class="image" width="1000" height="500">
+    <img src="mountains2.jpg" alt="Mountains" class="image" width="1000" height="500">
 </div>
-<div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="contact">
-  <h3 class="center">Contact</h3>
-  <hr>
-  <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus.</p>
+<div class="contact" style="width:100%;" id="contact">
+  <h3 style="text-align:center;">Contact</h3>
+  <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl.Sed mattis nunc id lorem euismod placerat.<br>
+    Vivamus porttitor magna enim, ac accumsan tortor cursus at.Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus.
+  </p>
 
-  <form action="" target="_blank">
-    <div class="w3-section">
-      <label>Name</label>
-      <input class="w3-input w3-border" type="text" required name="Name">
-    </div>
-    <div class="w3-section">
-      <label>Email</label>
-      <input class="w3-input w3-border" type="text" required name="Email">
-    </div>
-    <div class="w3-section">
-      <label>Message</label>
-      <input class="w3-input w3-border" required name="Message">
-    </div>
-    <button type="submit" class="w3-button w3-block w3-dark-grey">Send</button>
-  </form><br>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <div class="">
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="yname" name="yname" placeholder="Your name..">
+
+      <label for="email">Email</label>
+      <input type="text" id="email" name="Email" placeholder="Email...">
+
+      <label for="message">Message</label>
+      <input type="text" id="msg" name="msg" placeholder="Message...">
+
+      <input type="submit" value="Submit">
+    </form>
+</div>
+
+  <p>Powered by <a href="" target="_blank">w3.css</a></p>
 
 </div>
 
