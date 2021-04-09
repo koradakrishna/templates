@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+*{
+  font-family: sans-serif;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.foot{
+
+padding: 0 8px;
+padding-top: 32px;
+padding-bottom: 32px;
+}
+.foot:before, .foot:after {
+  content: "";
+ display: table;
+ clear: both;
+}
+.con {
+  float: left;
+  width: 100%;
+}
+img{
+  float: left;
+
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+}
+.float {
+  text-decoration: none;
+  list-style-type: none;
+}
