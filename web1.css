@@ -1,0 +1,192 @@
+*{
+margin:0;
+padding:0;
+font-family:sans-serif;
+}
+.hero{
+height: 100vh;
+background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.6)),url(background.jpg);
+background-position: center;
+background-size:cover;
+overflow:hidden;
+position:relative;
+}
+
+.navbar {
+display:flex;
+padding:40px 120px;
+}
+.navlogo img {
+width: 135px;
+}
+.navlinks {
+flex: 1;
+}
+.navlinks ul {
+margin-left:50px;
+display:inline;
+}
+.navlinks ul li {
+list-style:none;
+display:inline-block;
+padding:8px 25px;
+}
+.navlinks ul a {
+color:white;
+text-decoration:none;
+font-size: 13px;
+}
+.navlinks ul li::after {
+content:'';
+width:0;
+height:2px;
+background:yellow;
+display:block;
+margin:auto;
+transition:.5s;
+}
+.navlinks ul li:hover::after{
+width:100%;
+}
+.btn{
+padding:10px 20px;
+border:0;
+background-color:yellow;
+font-weight:bold;
+curso:pointer;
+}
+.navlinks .btn {
+float:right;
+}
+.banner{
+margin:80px 130px;
+color: #fff;
+}
+.banner h1 {
+font-size:64px;
+margin-bottom:30px;
+}
+.vertical{
+height:100%;
+background:#0000;
+top:0;
+left:0;
+position:absolute;
+}
+.search{
+height:60px;
+width:80px;
+}
+.search .fa{
+margin:45px 23px;
+display:block;
+color:white;
+font-size:30px;
+cursor:pointer;
+}
+.social {
+height:35%;
+width:75px;
+background:yellow;
+text-align:center;
+padding-top:1%;
+padding-bottom: 1%;
+
+bottom:0;
+position:absolute;
+}
+.fa-bars{
+  display: none;
+}
+fa-close{
+  display: none;
+}
+.social .fa {
+margin: 15px 23px;
+display:block;
+padding:8px;
+border:1px solid #000;
+border-radius:50%;
+cursor:pointer;
+}
+.notifications {
+display:flex;
+width:400px;
+right:0;
+bottom:0;
+position:absolute;
+background:yellow;
+align-items:center;
+}
+.contents {
+flex-basis:20%;
+padding:5px;
+}
+.notification-img {
+flex-basis:20%;
+}
+.notification-img img {
+width:30%;
+}
+.contents a {
+text-decoration:none;
+color:black;
+font-size:13px;
+margin:0 5px;
+}
+.contents p {
+text-align:right;
+margin-top:2px;
+}
+@media (max-width: 700px) {
+.vertical {
+display:none;
+}
+.banner{
+margin:80px 40px;
+}
+.banner h1{
+  display: block;
+font-size: 16px;
+}
+.notification{
+width:100%;
+
+}
+.navbar{
+padding:10px 30px;
+}
+.fa-bars{
+display: block;
+position:absolute;
+right:20px;
+top:10px;
+color: white;df
+}
+.navbar .fa {
+display:block;
+color:white;
+margin:10px 25px;
+font-size:22px;
+cursor:pointer;
+}
+.navlinks{
+height:100vh;
+width:200px;
+background:black;
+top:0;
+right:0;
+position:absolute;
+text-align:left;
+z-index:2;
+}
+.navlinks ul a {
+display:block;
+}
+.navlink .btn{
+float:none;
+margin-left: 25px;
+margin-top: 10px;
+
+}
+}
