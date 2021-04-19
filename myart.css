@@ -38,10 +38,6 @@ input {
   padding: 10px;
 
 }
-.form {
-  display: block;
-  text-align: center;
-}
 #center {
   max-width: 100%;
   height: auto;
@@ -54,46 +50,11 @@ p{
   padding-right: 15%;
   font-size: 15px;
 }
-.one{
-  max-width: 100%;
-  height: auto;
-  display: block;
-  vertical-align: middle;
-color: #000;
-background-color: #f1f1f1;
-padding-top: 64px !important;
-padding-bottom: 64px !important;
+
+h2{
+  text-align: center;
 }
 
-@media screen and (max-width: 700px) {
- .column {
-   display: block;
-   width: 5px;
-
- }
-}
-.image1 {
-
-}
-.image2 {
-display: flex;
-position: absolute;
-right:0;
-top:120px;
-left:699px;
-
-}
-.image3{
-  vertical-align: middle;
-margin: 0;
-top: 0;
-}
-.image4 {
-  position:relative;
-  float: right;
-  left:699px;
-  bottom: 100%;
-}
 
 .row {
   content: "";
@@ -103,15 +64,10 @@ top: 0;
 .column {
 width:49.99999%;
 float: left;
-margin-bottom: -16px;
 
 }
-.content {
-  display: block;
-}
-img {
-  border-style: none;
-}
+
+
 .image {
   max-width: 100%;
   height: auto;
@@ -121,3 +77,9 @@ img {
 .center {
   text-align: center;
 }
+ @@media only screen and ( max-width: 600px;) {
+   .column {
+     width: 100%;
+   }
+
+ }
