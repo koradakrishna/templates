@@ -87,7 +87,7 @@ span{
   height: auto;
 }
 
-.container .btn {
+.btn {
   position: absolute;
   top: 10%;
   left:28%;
@@ -155,7 +155,7 @@ span{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
 
   }
 }
