@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,h2,h3 {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-size: 36px;
+}
+
+html,body {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5;
+  font-size: 15px;
+}
+.header{
+  background-image: url('1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+.content {
+  position: absolute;
+  text-align: center;
+  line-height: 2;
+    top:40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 48px;
+  color: white;
+
+}
+
+.content1 {
+  position: absolute;
+ top: 280%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ color: white;
+
+}
+.navbar{
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
+  z-index: 1;
+  overflow: hidden;
+  opacity: 0.7;
+  padding: 15px 150px;
+}
+ul li {
+  display: inline;
+
+}
+li a {
+  padding: 30px 50px;
+  margin-bottom: 5px;
+}
+ul li a {
+  text-decoration: none;
+}
+a:hover{
+  background-color: grey;
+}
+img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  display: block;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+flex-container > div {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+@media screen and (max-width: 500px) {
+  .column {
+    display: contents;
+   width: 100%;
+
+  }
+}
+@media screen and (max-width:500px) {
+   .navbar {
+    display: none;
+  }
+
+  .content1 {
+    position: absolute;
+   top: 260%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 12px;
+   color: white;
+
+  }
+
+}
+
+.button
+{
+  border: none;
+display: inline-block;
+padding: 8px 16px;
+vertical-align: middle;
+overflow: hidden;
+text-decoration: none;
+color: black;
+background-color: orange;
+text-align: center;
+cursor: pointer;
+white-space: nowrap;
+margin-left: auto;
+margin-right: auto;
+}
+.button1{
+
+    border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.bottom {
+
+  width: 100%;
+  height: 300px;
+  top: 50%;
+  left:50%;
+  margin: auto;
+  padding: 70px 0;
+}
