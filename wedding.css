@@ -47,9 +47,19 @@ html,body {
   background-color: white;
   width: 100%;
   z-index: 1;
-  overflow: hidden;
   opacity: 0.7;
-  padding: 15px 150px;
+  width: 100%;
+  overflow: auto;
+}
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: black;
+  background-color: silver;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%;
+  text-align: center;
 }
 ul li {
   display: inline;
@@ -64,6 +74,9 @@ ul li a {
 }
 a:hover{
   background-color: grey;
+}
+li #one:hover{
+  background-color: black;
 }
 img {
   margin-left: auto;
@@ -96,14 +109,14 @@ flex-container > div {
   padding: 10px;
   height: 300px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .column {
     display: contents;
    width: 100%;
 
   }
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
    .navbar {
     display: none;
   }
@@ -113,7 +126,7 @@ flex-container > div {
    top: 260%;
    left: 50%;
    transform: translate(-50%, -50%);
-   font-size: 12px;
+   font-size: 8px;
    color: white;
 
   }
@@ -160,5 +173,5 @@ margin-right: auto;
   top: 50%;
   left:50%;
   margin: auto;
-  padding: 70px 0;
+  padding: 20px;
 }
