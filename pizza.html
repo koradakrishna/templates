@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="pizza.css">
+    <title></title>
+  </head>
+  <body>
+
+     <div class="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+    </div>
+    <div class="bgimage">
+       <div class="content">
+         <h2 style="text-align:center;font-size:48px;">THIN <br>CRUST PIZZA</h2>
+         <button type="button" name="button">LET ME SEE THE MENU</button>
+
+       </div></div><br><br><br><br><br><br><br><br>
+
+
+ <div class="columns">
+<h2 style="text-align:center;"> THE MENU</h2><br><br>
+
+<div class="tab">
+ <button class="food" onclick="openFood(event, 'pizza')" id="defaultOpen">PIZZA</button>
+ <button class="food" onclick="openFood(event, 'salads')">SALADS</button>
+ <button class="food" onclick="openFood(event, 'starters')">STARTER</button>
+</div>
+
+<div id="pizza" class="tabcontent">
+ <h3>Margherita <span style="float:right;background-color:grey;color:white;padding:10px;">$12.50</span></h3><br>
+ <p>Fresh tomatoes, fresh mozzarella, fresh basil</p><br>
+ <hr><br>
+ <h3>Formaggio <span style="float:right;background-color:grey;color:white;padding:10px;"> $15.50 </span></h3><br>
+ <p>Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p><hr><br>
+ <h3>Chicken  <span style="float:right;background-color:grey;color:white;padding:10px;">$17.00 </span></h3><br>
+ <p>Fresh tomatoes, mozzarella, chicken, onions</p><hr><br>
+ <h3>Pineapple'o'clock <span style="float:right;background-color:grey;color:white;padding:10px;">$16.50</span></h3><br>
+ <p>Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p><hr><br>
+ <h3>Meat Town <span style="background-color:red;color:white;">Hot!</span><span style="float:right;background-color:grey;color:white;padding:10px;"> $20.00</span></h3><br>
+ <p>Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p><hr><br>
+ <h3>Parma <span style="background-color:grey;">New</span><span style="float:right;background-color:grey;color:white;padding:10px;">$21.50</span></h3><br>
+<p>Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p><br>
+</div>
+
+<div id="salads" class="tabcontent">
+ <h3>Lasagna <span style="background-color:grey;">Popular</span> <span style="float:right;background-color:grey;color:white;padding:10px;">$13.50</span></h3><br>
+ <p>Special sauce, mozzarella, parmesan, ground beef</p><hr><br>
+ <h3>Ravioli <span style="float:right;background-color:grey;color:white;padding:10px;">$14.50</span></h3><br>
+ <p>Ravioli filled with cheese</p><hr>
+ <h3>Spaghetti Classica <span style="float:right;background-color:grey;color:white;padding:10px;">$11.00</span></h3><br><br>
+ <p>Fresh tomatoes, onions, ground beef</p><hr>
+ <h3>Seafood pasta <span style="float:right;background-color:grey;color:white;padding:10px;">$25.50</span></h3><br>
+ <p>Salmon, shrimp, lobster, garlic</p>
+</div>
+
+<div id="starters" class="tabcontent">
+ <h3>Today's Soup <span style="background-color:grey;">Seasonal</span><span style="float:right;background-color:grey;color:white;padding:10px;">$5.50</span></h3><br>
+ <p>Tokyo is the capital of Japan.</p><hr><br>
+ <h3>Bruschetta <span style="float:right;background-color:grey;color:white;padding:10px;">$8.50</span>$8.50</h3><br>
+ <p>Bread with pesto, tomatoes, onion, garlic</p><hr><br>
+ <h3>Garlic bread <span style="float:right;background-color:grey;color:white;padding:10px;">$9.50</span></h3><br>
+ <p>Grilled ciabatta, garlic butter, onions</p><hr><br>
+ <h3>Tomozzarella <span style="float:right;background-color:grey;color:white;padding:10px;">$10.50</span></h3><br>
+ <p>Tomatoes and mozzarella</p><br>
+
+</div>
+</div><br><br>
+<div class="about" id="about" style="background-color:#f44336;height:200px;">
+<h2>ABOUT</h2>
+<p>The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor
+  sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+  laboris nisi ut aliquip ex ea commodo consequat.</p><br><br>
+  <p>The Chef? Mr. Italiano himself</p><br><br><br>
+  <img src="chef.jpg" alt="" style="float:right;border-radius:50%;vertical-align:middle;" width="100" height="100">
+  <p>We are proud of our interiors.</p><br><br>
+</div>
+<img src="onepage_restaurant.jpg" alt="" style="width:100%;">
+
+<div class="row">
+  <h2>Opening Hours</h2>
+
+  <div class="column">
+    <p style="text-align:center;">Mon & Tue CLOSED</p>
+    <p style="text-align:center;">Wednesday 10.00 - 24.00</p>
+    <p style="text-align:center;">Thursday 10:00 - 24:00</p>
+  </div>
+<div class="column">
+<p style="text-align:center;">Friday 10:00 - 12:00</p>
+<p style="text-align:center;">Saturday 10:00 - 23:00</p>
+<p style="text-align:center;">Sunday Closed</p>
+</div>
+</div>
+<div class="map">
+  <img src="map.jpg" alt="" style="width:100%;">
+</div>
+<div class="contact">
+  <h2 style="text-align:center;">Contact</h2>
+  <p>Find us at some address at some place or call us at 05050515-122330</p>
+  <p>FYI! We offer full-service catering for any event, large or small.
+    We understand your needs and we will cater the food to satisfy the biggerst
+    criteria of them all, both look and taste.</p>
+    <p>Reserve a table, ask for today's special or just send us a message:</p>
+<form class="">
+  <input type="text" placeholder="Name" required name="Name" style="width:100%; height:30px;"><br>
+  <input type="number" id="quantity" min="0" max="100" required name="How Many People" placeholder="How Many People" style="width:100%;">
+  <input type="text" placeholder="Date and Time" required name="Date" style="width:100%;height:30px;"> <br>
+  <input type="text" placeholder="Message/Special Requirement" required name="Message" style="width:100%;height:30px;"> <br>
+
+  <input type="submit" value="SEND MESSAGE"></form>
+
+</div>
+<footer>
+ <h3>Powered By CSS</h3>
+</footer>
+<script>
+function openFood(evt, menu) {
+  var i, tabcontent, food;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  food = document.getElementsByClassName("food");
+  for (i = 0; i < food.length; i++) {
+    food[i].className = food[i].className.replace(" active", "");
+  }
+  document.getElementById(menu).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+document.getElementById("defaultOpen").click();
+
+</script>
+
+  </body>
+</html>
